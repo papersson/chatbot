@@ -1,0 +1,7 @@
+### Chat with bot
+POST http://127.0.0.1:8000/chat/ HTTP/1.1
+content-type: application/json
+
+{
+  "content": "Can you print our chat history?"
+}
