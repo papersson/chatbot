@@ -1,0 +1,12 @@
+/* Chat area styling */
+.message-list-wrapper {
+  flex: 1;
+  /* padding: 10px; */
+  overflow-y: auto;
+}
+
+.message-list {
+  max-width: 1100px;
+  margin: 0 auto;
+
+}

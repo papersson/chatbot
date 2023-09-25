@@ -1,0 +1,25 @@
+/* ChatInput.css */
+.chat-input-wrapper {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;  /* Centering horizontally */
+  background-color: transparent;
+}
+
+.chat-input {
+  width: 100%;
+  min-height: 50px;  /* Minimum height */
+  max-height: 300px;  /* Maximum height */
+  padding: 1rem;
+  overflow: auto;  /* Allow scrolling past max-height */
+  resize: none;  /* Disable browser's resize handle */
+  margin-bottom: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* ChatInput.css */
+.resize-handle {
+  height: 10px;
+  cursor: ns-resize;
+}
