@@ -27,8 +27,13 @@
 .message.User {
   background-color: white;
   align-self: flex-end;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-right: 5px;
+}
+
+.message-content {
+    margin-left: 1rem;
+    /* float: right; */
 }
 
 /* Message.css */
