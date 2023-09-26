@@ -1,7 +1,7 @@
 import './Header.css'
 
 const Header = () => {
-  return <div className='App-header'>JeppeBot</div>
+  return <div className='App-header'>VasylBot</div>
 }
 
 export default Header
